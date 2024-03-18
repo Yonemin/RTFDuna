@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #695C54;
+    border-radius: 5%;
+    font-size: large;
+}
+
+body{
+    background-image: url(../img/dona.jpg);
+    background-size: cover;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+article{
+    width: 70%;
+    height: 350px;
+    border-radius: 15px;
+    background: #eee8aece;
+    color: black;
+    text-align: justify;
+}
+
+.text1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content{
+    float: right;
+    width: 200px;
+    position: relative;
+    margin-left: 50px;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+.anuncio{
+    margin-right: 40px;
+    margin-top: 150px;
+}
+
+.end{
+    text-align: center;
+}
+
+a:link{
+    color: #ffffff;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: #A77A24;
+}
